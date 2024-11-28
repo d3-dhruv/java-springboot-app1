@@ -18,7 +18,7 @@ pipeline {
                 echo 'Maven COmpile Finished'
             }
         }
-        stage('Maven Test') {
+        stage('Maven Test build') {
             steps {
                 echo 'Maven Test Started'
                 sh 'mvn test'
